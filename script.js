@@ -46,6 +46,7 @@ reset.addEventListener("click", () => {
     work.value = "25"
     breaktime.value = "5"
     display.innerHTML = work.value + ":00"
+    play.innerHTML = "&#9654;"
     playstate = false;
     breakstate = false;
     state = false;
