@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pomodoro Clock - To Get Shit Done</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="display-container">
+                <h1 id="time">25:00</h1>
+            </div>
+            <div class="controls-container">
+                <div id="play">
+                    &#9654;
+                </div>
+
+                <div id="stop">
+                    &#9724;
+                </div>
+
+                <div id="reset">
+                    &#10226;
+                </div>
+            </div>
+            <div class="settings-container">
+                <div class="work-time">
+                    <h4>work</h4>
+                    <input type="number" id="work" name="work" min="1" max="60" value="25">
+                </div>
+                <div class="break-time">
+                    <h4>break</h4>
+                    <input type="number" id="break" name="break" min="1" max="60" value="5">
+                </div>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+
+</html>

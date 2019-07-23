@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "Verdana", sans-serif;
+}
+
+body {
+    height:100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height:100%;
+    width:100%;
+}
+
+.display-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:3em;
+}
+
+.controls-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:3em;
+}
+
+.controls-container div {
+    margin:20px;
+}
+
+.controls-container div:hover {
+    cursor: pointer;
+}
+
+.settings-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2em;
+}
+
+.settings-container div {
+    padding:30px;
+}
+
+.settings-container input {
+    border:none;
+    font-size:1.5em;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+   opacity: 1;
+}
